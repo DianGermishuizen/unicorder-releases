@@ -1,0 +1,9 @@
+// Serves appcast.xml at https://updates.unicorder.app/appcast.xml as a static file.
+// Disk images are not here: they are assets of this repo's `updates` release on GitHub.
+{
+  "name": "unicorder-releases",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./"
+  }
+}
