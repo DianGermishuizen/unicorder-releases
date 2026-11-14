@@ -1,6 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Unicorder</title>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Unicorder</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sat, 14 Nov 2026 17:42:56 +0200</pubDate>
+            <sparkle:version>787</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[
+### Installing
+- The installer window shows where to drag Unicorder, with an arrow to Applications.
+- Opened straight from the installer, Unicorder asks to be dragged to Applications first.
+- Once installed, Unicorder offers to eject the installer and move it to the Bin.
+
+### Transcription
+- When a transcription has to download its model first, the meeting page shows how far the
+  download has got, with the time left.
+- Cancelling a transcription stops at once, even while a model downloads in Settings.
+- Model downloads in Settings keep showing their progress when you come back to them, and can
+  be cancelled.
+- The live transcript starts as soon as its model finishes downloading, during the recording.
+
+### Summaries
+- Summaries with Apple Intelligence work on macOS 27: long meetings are split up again, and
+  ordinary meetings are refused far less often.
+
+### Look and feel
+- During the trial, Pro features are marked "Pro trial", with the days left in the tooltip.
+- Tidier spacing in the toolbar, around Settings in the sidebar and in the window for choosing
+  a storage folder.
+
+]]></description>
+            <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder-0.1.0-787.dmg" length="129360148" type="application/octet-stream" sparkle:edSignature="OC6uBl1cEE6XBrMZEHpo8Uwpl2vcqKV4pHFjc6/tPtqIuEuU7FESAWBnTX70qIXpRGOofFyIiupEQXcFghIVCg=="/>
+        </item>
+    </channel>
 </rss>
