@@ -4,6 +4,53 @@
         <title>Unicorder</title>
         <item>
             <title>0.1.0</title>
+            <pubDate>Mon, 16 Nov 2026 10:38:29 +0200</pubDate>
+            <sparkle:version>841</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[
+### Search and Ask
+- Ask a question across all your meetings from search (the Ask button, or start with "?").
+  Answers cite the moments they come from, play from there, and can be saved as a note.
+- Your recent searches and questions show under the empty search field, and each Ask
+  conversation is saved as a Markdown file. Clear the history in Settings → Search by Meaning.
+
+### Recording
+- After you press Stop, the menu bar shows the meeting being saved, transcribed and
+  summarised, one step at a time.
+- Mute works while Unicorder is holding the start of a call, and stopping a muted recording
+  no longer leaves your Mac's microphones muted.
+- Pressing Record on a held call no longer holds up the recording for a moment.
+
+### Transcription
+- Transcribing shows its steps (Transcribe, Vocabulary, Speakers) with progress and time
+  left, now including speaker identification.
+- A model download is only mentioned when there is one.
+- Model downloads in Settings show Find, Download and Prepare, so a finished download that is
+  still getting ready no longer looks stuck.
+- Cloud transcription is only given the misheard spellings of this meeting's invitees.
+
+### Feedback
+- Send Feedback attaches the diagnostics by itself when Outlook is your mail app. With other
+  mail apps, the diagnostics file is shown in Finder, ready to drag in.
+
+### Fixes
+- Choosing This Is Me on your own page in People no longer crashes the app, and People opens
+  faster.
+- Choosing a storage folder in iCloud Drive no longer hangs the app for minutes.
+- Slides and summaries are saved in the right place when the meeting is renamed or moved to
+  the Bin while they are being made.
+- Meeting files are saved in a way a crash can't leave half-written.
+- Help → Privacy describes exactly what Unicorder does.
+
+]]></description>
+            <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder-0.1.0-841.dmg" length="130033954" type="application/octet-stream" sparkle:edSignature="yO90hqBh7xo6GAjTNXUksM4sxQQLPm8C14U5GaHE0D9eIFfckLbclpSvhnz5nNt8Fao6gWlSCTDMPHIo08J3AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder841-787.delta" sparkle:deltaFrom="787" length="7158102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dmrQbvElKpBHU0SZ7We53FLgyPGvdVKYH3/eE25cCmIN0wQBHaojaXhPnd1g0hnJxbUwCjgR7L7gn2QqbHduBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.0</title>
             <pubDate>Sat, 14 Nov 2026 17:42:56 +0200</pubDate>
             <sparkle:version>787</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
