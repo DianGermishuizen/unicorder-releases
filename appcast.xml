@@ -4,6 +4,37 @@
         <title>Unicorder</title>
         <item>
             <title>0.1.0</title>
+            <pubDate>Tue, 17 Nov 2026 15:00:44 +0200</pubDate>
+            <sparkle:version>859</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[
+### Meetings
+- Join two or more meetings into one, or split a meeting in two at a point you choose. The
+  card shows each step and can be cancelled, and File → Undo puts the meetings back as they
+  were.
+- Audio and video stored only in iCloud Drive show a progress bar while they download.
+- Finished steps on a meeting's card stay above the one that is still running.
+- The filters above the meeting list stay on one line. When the list is narrow, the project
+  and unlinked filters show just their icons.
+
+### Projects
+- A project's page now sets its Apple Reminders list, Project Context and vocabulary, and
+  shows which calendar rules record into it.
+- Project pages open faster.
+
+### Look and feel
+- A new loading animation, made from the Unicorder logo, replaces the spinning wheels.
+
+]]></description>
+            <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder-0.1.0-859.dmg" length="130579426" type="application/octet-stream" sparkle:edSignature="ssM4ylp4ai93Yr3kbvua1ED+YvnYud2UBS33VAlwLFIbT2kAcrkf45ZSrBwbRYnKxzm9jdrsY615I0pz0qiHDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder859-841.delta" sparkle:deltaFrom="841" length="7369254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0OKMOvwSfS8aqQbPL4Z+6C7FaOC0DSN0MKi/yT+eCYdaEpQZwXcvICUIoeoteNVlRzWWpXx5vSbJQKdwPCjdDQ=="/>
+                <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder859-787.delta" sparkle:deltaFrom="787" length="8606142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rt9Wt0f7gkdKBY19CiVfAhGjPuisDihqle8IDJAkVQtkhSXNLjqg9AN7NiNAVJsTUxbgrIW5RuVtUtfKX/ALDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.0</title>
             <pubDate>Mon, 16 Nov 2026 10:38:29 +0200</pubDate>
             <sparkle:version>841</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
