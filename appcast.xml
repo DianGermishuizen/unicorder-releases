@@ -4,6 +4,62 @@
         <title>Unicorder</title>
         <item>
             <title>0.1.0</title>
+            <pubDate>Thu, 19 Nov 2026 12:06:08 +0200</pubDate>
+            <sparkle:version>871</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[
+### Recording
+- If your microphone won't start because another app (Fathom, Teams, a call in Chrome) has
+  just opened it, the recording now goes ahead. Unicorder tries again, then your Mac's default
+  microphone, and if neither works it records the call without you and says so.
+- If your microphone goes quiet partway through a recording, Unicorder restarts it within a
+  few seconds instead of leaving a gap.
+- The microphone menus follow the order you set in Settings.
+- "System Default" now says which microphone it is, for example System Default (AirPods Pro).
+- In the menu bar, the microphone's name lines up with Video, and mute is a clear on/off
+  switch.
+
+### Transcription
+- Custom vocabulary no longer swaps people's names in for ordinary speech that sounds nothing
+  like them.
+- The transcript's speaker filter stays open while you tick and untick several speakers, and
+  each speaker has an Only button.
+- Claude Code, Codex and similar AI tools can now edit your transcripts safely, for example a
+  find and replace across a meeting. Settings → Storage → Save Skill gives them the
+  instructions. Lines they change show as edited and can be put back.
+
+### Meetings
+- A meeting's steps show Finding slides, and a summary waits for the slides without looking
+  stuck.
+- The steps match the transcript's own progress while vocabulary is applied, and they are
+  still there after Unicorder is reopened.
+- Name speakers and File the meeting tick themselves done when they are.
+- Every progress bar now has Cancel and the Unicorder loading animation.
+
+### People
+- Group the People list by project or tag.
+- Long names with many project and tag pills no longer wrap over several lines.
+- A person's page keeps their summary on one line and their project names whole.
+- Unlinked mentions show the right count and sit inside the Notes card.
+
+### Action Items
+- Lists with only completed items no longer leave an empty row under the title.
+
+### Pro trial
+- During the trial, the Pro window says you have every Pro feature and how many days are
+  left.
+
+]]></description>
+            <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder-0.1.0-871.dmg" length="130724798" type="application/octet-stream" sparkle:edSignature="ubbIFdM4oMiTtsBuWe/8oNDdvBGOSD5SL23/vPststxMk5dfO4bCHgoiE74ytMhVJlNkxnBFg74aATDIKvlTAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder871-859.delta" sparkle:deltaFrom="859" length="5796722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z6m+ihzjCQDtykAU7KEPUuyzPc38VyjVzJfoDbMHewnMA5BtliarMsQ/1uKP9hpcn7H5UWmp0+6SLR2t9VnICA=="/>
+                <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder871-841.delta" sparkle:deltaFrom="841" length="7852870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ktpuE8RP9rKwqFlF12yP1PfzYtUI0lrIwtPqG93FNwUsdpWnqnBZBwvUTdwyLK3JWfjs/bdyAtx0NHOP/8e9DA=="/>
+                <enclosure url="https://github.com/DianGermishuizen/unicorder-releases/releases/download/updates/Unicorder871-787.delta" sparkle:deltaFrom="787" length="8951058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PNuNmf3HJ03EOtxLX7tDFI3nbE9EVfp/UdveIqjAOFwDgcfN6drVNJFw2n//DneOcpd6WZ+UcMZMOzgSspL8CA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.0</title>
             <pubDate>Tue, 17 Nov 2026 15:00:44 +0200</pubDate>
             <sparkle:version>859</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
